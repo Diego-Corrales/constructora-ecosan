@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fontfamilies:
+font-family: 'BIZ UDGothic', sans-serif;
+font-family: 'Barlow', sans-serif;
+
+*/
+
+
+/* header */
+
+.top-header{
+    width: 100%;
+    background-image: url(./Imagenes/Logo/fondo-Header02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+/* padding: top - right - bottom - left */
+
+.logoempresarial__Imagen{
+padding: 10px 20px 0px 20px;
+}
+
+.barraNavegacion{
+    
+    /* padding: top - right - bottom - left */
+
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.barraNavegacion__Lista li{
+    display: inline-block;
+    margin: 15px;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.barraNavegacion__anchor{
+    
+    text-decoration: underline;
+    list-style: none;
+    text-shadow: 2px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2B8255
+}
+
+.logoempresarial__Imagen{
+    float: left;
+}
+
+.iso9001__Imagen{
+    float: right;
+    margin: 10px;
+}
+
+.iso14001__Imagen{
+    float: right;
+    margin: 10px;
+}
+
+.Refran_Eco{
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    font-family: 'BIZ UDGothic', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2B8255
+}
+
+/* Main */
+h2{
+    font-size: 16px;
+    color: #5A2DED;
+    font-family: 'Barlow', sans-serif;
+}
+h3{
+    color: #1E93D6;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    overflow-x: scroll;
+    height: 40vh;
+    width: 70vw;
+    margin: auto;
+}
+
+.galeria__imagen{
+    height: 200px;
+    width: 350px;
+}
+.cardsFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main_productos */
+.prod_Cabacera{
+    text-align: center;
+}
+.prod_Galeria__Imagen{
+height: 200px;
+width: 350px;
+}
+
+
+/* Footer */
+.Redes__Sociales{
+    float: right;
+}
