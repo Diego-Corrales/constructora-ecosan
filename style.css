@@ -64,7 +64,7 @@ padding: 10px 20px 0px 20px;
 .barraNavegacion__anchor:hover{
     transform: scale(1);
     transition: all 1s;
-    color: #5A2DED;
+    color: #7cb82e;
     font-size: 180%;
 }
 
