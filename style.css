@@ -59,7 +59,13 @@ padding: 10px 20px 0px 20px;
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #2B8255
+    color: black
+}
+.barraNavegacion__anchor:hover{
+    transform: scale(1);
+    transition: all 1s;
+    color: #5A2DED;
+    font-size: 180%;
 }
 
 .logoempresarial__Imagen{
