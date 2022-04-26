@@ -62,9 +62,21 @@ font-family: 'Barlow', sans-serif;
     list-style: none;
     text-shadow: 2px;
     font-family: 'Barlow', sans-serif;
+<<<<<<< HEAD
     font-weight: 600;
     font-size: 16px;
     color: #2B8255
+=======
+    font-weight: 700;
+    font-size: 24px;
+    color: black
+}
+.barraNavegacion__anchor:hover{
+    transform: scale(1);
+    transition: all 1s;
+    color: #7cb82e;
+    font-size: 180%;
+>>>>>>> agregandoanimacion
 }
 
 .logoempresarial__Imagen{
