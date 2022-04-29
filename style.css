@@ -74,12 +74,13 @@ font-family: 'Barlow', sans-serif;
 }
 
 .logoempresarial__Imagen{
-    float: left;
+    height: 100px;
+    width: 250px;
 }
 
 .iso9001__Imagen{
-    float: right;
-    margin: 10px;
+    height: 110px;
+    width: 110px;
 }
 
 .iso14001__Imagen{
@@ -243,6 +244,12 @@ h3{
         margin-top: 0px;
         padding: 0px 5px;
     }
+    .galeria__imagen{
+        display: flex;
+        height: 400px;
+        width: 540px;
+        margin: 0px 60px 0px 100px;
+    }
 
 }
 
@@ -385,6 +392,84 @@ width: 300px;
     .prod_Main{
         display: flex;
         flex-direction: column;
+    }
+    .prod_Galeria__Imagen{
+        height: 200px;
+        width: 700px;
+    }
+    .prod_Galeria{
+        display: flex;
+        align-items: flex-start;
+        height: 220px;
+        width: 400px;
+        margin: 0px 60px 0px 0px;
+    }
+    .prod_Gal__Nombre01{
+        margin: 0px 60px 0px 0px;
+    }
+    .prod_Gal__Nombre02{
+        margin: 0px 60px 0px 0px;
+    }
+    .prod_Gal__Nombre03{
+        margin: 0px 60px 0px 0px;
+    }
+    h3{
+        margin: 0px 60px 0px 0px;
+    }
+    .viv_Indus{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .viv_Indus__Imagen01{
+        height: 100%;
+        width: 90%;
+    }
+    .viv_Indus__Imagen02{
+        height: 100%;
+        width: 90%;
+    }
+    .viv_Indus__Imagen03{
+        height: 100%;
+        width: 90%;
+    }
+    .viv_Indus__Imagen04{
+        height: 100%;
+        width: 90%;
+    }
+    .hab_Mov{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .hab_Mov__Parrafo{
+        display: flex;
+        padding-left: 15px;
+        padding-right: 90px;
+        padding-bottom: 40px;
+    }
+    .hab_Mov .prod_Galeria{
+        margin: 10px 70px 10px 0px;
+    }
+    .hab_Mov__Nombre01{
+        margin: 10px 70px 10px 0px;
+    }
+    .hab_Mov__Nombre02{
+        margin: 10px 70px 10px 0px;
+    }
+    .hab_Mov__Nombre03{
+        margin: 10px 70px 10px 0px;
+    }
+    .obr_Civ__Nombre01{
+        margin: 10px 70px 30px 0px;
+    }
+    .viv_Indus__art01{
+        margin-right: 100px;
+    }
+    .viv_Indus__art02{
+        margin-right: 100px;
     }
 }
 
