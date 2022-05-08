@@ -1,0 +1,35 @@
+.top-header{
+    background-color: #2B8255;
+}
+.row_Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collapse{
+    justify-content: center;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    color: white;
+}
+.navbar-brand{
+    font-size: 24px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #66b98e;
+}
+.nav-link{
+    font-size: 24px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #66b98e;
+}
+.nav-link:hover{
+    cursor: pointer;
+    border: solid 3px #b13813;
+    text-shadow: 0 0 10px #b13813;
+}

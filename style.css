@@ -133,10 +133,9 @@ h3{
 }
 
 .col_Foot{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
+
 
 @media only screen and (max-width: 768px) {
     body{
@@ -156,6 +155,12 @@ h3{
     .top-header{
         display: flex;
         flex-direction: row;
+    }
+
+    .row_Foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -191,5 +196,11 @@ h3{
         flex-direction: column;
         row-gap: 20px;
         padding: 0px 0px 0px 0px
+    }
+
+    .row_Foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
