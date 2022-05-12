@@ -4,3 +4,35 @@ $tamanio-medio: $tamanio-total/2;
 $tamanio-cuarto: $tamanio-medio/2;
 $tamanio-chico: $tamanio-cuarto/2;
 
+$tamanio-tipografia:(
+    titulos: 32px,
+    subtitulos: 24px,
+    parrafos: 16px,
+    subparrafos: 8px,
+);
+
+$font-colors:(
+    color-titulos: #5A2DED,
+    color-subtitulos: #1E93D6,
+);
+
+@mixin flexbox ($direction, $justify, $align){
+    display: flex;
+    direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    
+};
+
+@mixin mediaquery($pantalla){
+    @if $pantalla == mobile {
+        @media only screen and (max-width: 360px){
+            @content;
+        }
+    };
+    @if $pantalla == tablet {
+        @media only screen and (max-width: 768px){
+            @content;
+        }
+    }
+}
