@@ -1,10 +1,18 @@
 .row{
-  row-gap: 20px 20px;
+  padding: 5px;
 }
 
 .top_Main{
-  max-width: 100v;
-  height: 100vh;
+  max-width: 100%;
   background-color: #2b82557e;
   row-gap: 5px 5px 5px 5px;
+}
+@media only screen and (max-width: 768px) {
+  .row{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
 }

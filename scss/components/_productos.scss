@@ -1,0 +1,67 @@
+.top_Main__Productos{
+    background-color: #2b82557e;
+}
+.prod_Main{
+    display: flex;
+    justify-content: space-between;
+}
+.viv_Indust{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.card-text_OCiv{
+    text-align: center;
+}
+.card img{
+    height: 250px;
+}
+@media only screen and (max-width: 768px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .prod_Main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .prod_Main .card{
+        max-width: 100%;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .row img{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .prod_Main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .prod_Main .card{
+        max-width: 100%;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .row img{
+        width: 100%;
+    }
+}

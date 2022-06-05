@@ -33,3 +33,32 @@
     border: solid 3px #b13813;
     text-shadow: 0 0 10px #b13813;
 }
+@media only screen and (max-width: 768px) {
+    .row_Top{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .top-header{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .row_Top{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .top-header{
+        display: flex;
+        flex-direction: row;
+    }
+}
